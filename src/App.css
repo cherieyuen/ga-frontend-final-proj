@@ -1,16 +1,31 @@
 body {
-  margin: 5%;
   font-family: roboto;
+  background-color: rgb(255, 255, 255);
 }
 
 .nav {
   display: flex;
   justify-content: end;
-  padding: 20px;
+}
+
+.allContent {
+  margin: 5%;
 }
 
 li {
   list-style: none;
+  padding: 15px;
+}
+
+.restaurantTile {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.footerStyle {
+  display: flex;
+  justify-content: end;
+  padding: 10px;
 }
 
 img {

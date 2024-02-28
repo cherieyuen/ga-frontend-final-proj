@@ -6,14 +6,14 @@ import Footer from './components/Footer.jsx'
 
 const App = () => {
   return (
-    <div>
+    <div className="allContent">
       <nav>
         <Navbar />
       </nav>
 
       <h1>My Food Blog</h1>
 
-      <div>
+      <div className="restaurantTile">
         {restaurants.map((restaurant) => (
           <Restaurant key={restaurant.address} restaurant={restaurant} />
         ))}
