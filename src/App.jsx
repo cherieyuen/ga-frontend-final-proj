@@ -11,8 +11,10 @@ const App = () => {
         <Navbar />
       </nav>
       <div className="margin">
-        <h1>My Food Blog</h1>
-        <p>Welcome to my food blog~ eat lots~</p>
+        <div className="homeBanner">
+          <h1>Cherie.</h1>
+          <p className="titleSlogan">An Foodie's Manifesto</p>
+        </div>
 
         <div className="restaurantTile">
           {restaurants.map((restaurant) => (

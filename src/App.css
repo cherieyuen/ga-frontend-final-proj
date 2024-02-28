@@ -11,8 +11,22 @@ body {
   width: 100%;
 }
 
+h1 {
+  text-align: center;
+  font-size: 55px;
+  font-family: 'Dancing Script';
+  margin: 0px;
+  padding: 0px;
+}
+
 .margin {
   margin: 0% 10%;
+}
+
+.titleSlogan {
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
 }
 
 .nav {
@@ -20,10 +34,12 @@ body {
   justify-content: end;
 }
 
-footer {
+.restaurantName {
+  height: 50px;
 }
 
-.allContent {
+.homeBanner {
+  margin: 0px;
 }
 
 li {
@@ -36,14 +52,14 @@ li {
   grid-template-columns: 1fr 1fr 1fr;
   row-gap: 40px;
   column-gap: 30px;
-  margin: 5% 5%;
+  margin: 3% 10%;
 }
 
 .eachTile {
   background-color: rgba(255, 255, 255, 0.336);
   height: 100%;
   border-radius: 5%;
-  padding: 3%;
+  padding: 3% 6%;
   text-align: center;
 }
 
@@ -52,7 +68,7 @@ li {
 }
 
 img {
-  width: 250px;
+  width: 100%;
   height: 175px;
   border-radius: 5%;
 }

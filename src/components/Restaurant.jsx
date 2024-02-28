@@ -4,8 +4,10 @@ const Restaurant = (props) => {
   return (
     <div>
       <div className="eachTile">
-        <h4>{props.restaurant.name}</h4>
-        <img src={props.restaurant.pic} alt="" />
+        <div className="restaurantName">
+          <h4>{props.restaurant.name}</h4>
+        </div>
+        <img src={props.restaurant.pic} alt="" className="restaurantImg" />
         <div className="">
           {props.restaurant.types.map((type, index) => (
             <Type key={type.id} type={type} />
