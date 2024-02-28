@@ -447,7 +447,7 @@ const restaurants = [
         id: 12
       },
       {
-        cuisine: 'dessert',
+        cuisine: 'Dessert',
         id: 77
       }
     ],

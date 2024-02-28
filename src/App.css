@@ -1,6 +1,18 @@
 body {
-  font-family: arial;
-  background-color: rgb(227, 248, 249);
+  font-family: 'PT Sans';
+  background: radial-gradient(
+    circle,
+    rgba(238, 209, 222, 1) 12%,
+    rgba(239, 208, 243, 1) 31%,
+    rgba(193, 183, 227, 1) 63%,
+    rgba(174, 197, 244, 1) 88%,
+    rgba(127, 181, 245, 1) 100%
+  );
+  width: 100%;
+}
+
+.margin {
+  margin: 0% 10%;
 }
 
 .nav {
@@ -8,8 +20,10 @@ body {
   justify-content: end;
 }
 
+footer {
+}
+
 .allContent {
-  margin: 5%;
 }
 
 li {
@@ -19,13 +33,14 @@ li {
 
 .restaurantTile {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  row-gap: 2%;
-  column-gap: 2%;
+  grid-template-columns: 1fr 1fr 1fr;
+  row-gap: 40px;
+  column-gap: 30px;
+  margin: 5% 5%;
 }
 
 .eachTile {
-  background-color: #ffffff;
+  background-color: rgba(255, 255, 255, 0.336);
   height: 100%;
   border-radius: 5%;
   padding: 3%;
@@ -33,9 +48,7 @@ li {
 }
 
 .footerStyle {
-  display: flex;
-  justify-content: end;
-  padding: 10px;
+  background-color: white;
 }
 
 img {
@@ -44,9 +57,15 @@ img {
   border-radius: 5%;
 }
 
+h4 {
+  font-family: sans-serif;
+}
+
 button {
   border-radius: 15px;
   padding: 5px 10px;
+  border: none;
+  font-size: 12px;
 }
 
 .typeButtons {
@@ -56,54 +75,80 @@ button {
 
 .Japanese {
   background-color: #dafbce;
+  color: #1a430c;
+  font-weight: 700;
 }
 
 .Bingsu {
   background-color: #fdf1c8;
+  color: #4a3c0f;
+  font-weight: 700;
 }
 
 .Pizza {
   background-color: #c6dbda;
+  color: #0a3331;
+  font-weight: 700;
 }
 
 .Mexican {
   background-color: #ffdbcc;
+  color: #3f1908;
+  font-weight: 700;
 }
 
 .Cafe {
   background-color: #c8c4e6;
+  color: #1f194a;
+  font-weight: 700;
 }
 
 .Dessert {
   background-color: #f9d3f6;
+  color: #3d123a;
+  font-weight: 700;
 }
 
 .Portuguese {
   background-color: #b5c0d0;
+  color: #0f2341;
+  font-weight: 700;
 }
 
 .Chinese {
   background-color: #fff1e6;
+  color: #4b2c14;
+  font-weight: 700;
 }
 
 .Korean {
   background-color: #dfe7fd;
+  color: #101d41;
+  font-weight: 700;
 }
 
 .Vietnamese {
   background-color: #ccd3ca;
+  color: #183810;
+  font-weight: 700;
 }
 
 .Seafood {
   background-color: #bee1e6;
+  color: #153c42;
+  font-weight: 700;
 }
 
 .Fast {
   background-color: #d1e5d3;
+  color: #113514;
+  font-weight: 700;
 }
 
 .Thai {
-  background-color: #ac6d7;
+  background-color: rgba(213, 197, 249, 0.867);
+  color: rgba(48, 28, 94, 0.867);
+  font-weight: 700;
 }
 
 .icon {

@@ -6,7 +6,7 @@ const Restaurant = (props) => {
       <div className="eachTile">
         <h4>{props.restaurant.name}</h4>
         <img src={props.restaurant.pic} alt="" />
-        <div>
+        <div className="">
           {props.restaurant.types.map((type, index) => (
             <Type key={type.id} type={type} />
           ))}
