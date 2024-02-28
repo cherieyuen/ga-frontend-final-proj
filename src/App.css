@@ -1,8 +1,77 @@
 body {
-  margin: 0;
+  margin: 5%;
+  font-family: roboto;
+}
+
+.nav {
+  display: flex;
+  justify-content: end;
+  padding: 20px;
+}
+
+li {
+  list-style: none;
 }
 
 img {
   width: 250px;
   height: 175px;
+}
+
+button {
+  display: ;
+  border-radius: 20px;
+  padding: 5px 10px;
+}
+
+.Japanese {
+  background-color: #dafbce;
+}
+
+.Bingsu {
+  background-color: #fdf1c8;
+}
+
+.Pizza {
+  background-color: #c6dbda;
+}
+
+.Mexican {
+  background-color: #ffdbcc;
+}
+
+.Cafe {
+  background-color: #c8c4e6;
+}
+
+.Dessert {
+  background-color: #f9d3f6;
+}
+
+.Portuguese {
+  background-color: #b5c0d0;
+}
+
+.Chinese {
+  background-color: #fff1e6;
+}
+
+.Korean {
+  background-color: #dfe7fd;
+}
+
+.Vietnamese {
+  background-color: #ccd3ca;
+}
+
+.Seafood {
+  background-color: #bee1e6;
+}
+
+.Fast {
+  background-color: #d1e5d3;
+}
+
+.Thai {
+  background-color: #ac6d7;
 }
