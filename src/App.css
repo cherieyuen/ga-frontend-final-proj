@@ -1,6 +1,6 @@
 body {
-  font-family: roboto;
-  background-color: rgb(255, 255, 255);
+  font-family: arial;
+  background-color: rgb(227, 248, 249);
 }
 
 .nav {
@@ -20,6 +20,16 @@ li {
 .restaurantTile {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
+  row-gap: 2%;
+  column-gap: 2%;
+}
+
+.eachTile {
+  background-color: #ffffff;
+  height: 100%;
+  border-radius: 5%;
+  padding: 3%;
+  text-align: center;
 }
 
 .footerStyle {
@@ -31,12 +41,17 @@ li {
 img {
   width: 250px;
   height: 175px;
+  border-radius: 5%;
 }
 
 button {
-  display: ;
-  border-radius: 20px;
+  border-radius: 15px;
   padding: 5px 10px;
+}
+
+.typeButtons {
+  margin: 5px 5px 5px 0px;
+  display: inline;
 }
 
 .Japanese {
@@ -89,4 +104,8 @@ button {
 
 .Thai {
   background-color: #ac6d7;
+}
+
+.icon {
+  width: 20px;
 }

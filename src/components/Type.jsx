@@ -1,6 +1,6 @@
 const Type = (props) => {
   return (
-    <div>
+    <div className="typeButtons">
       <button class={props.type.cuisine}> {props.type.cuisine} </button>
     </div>
   )
