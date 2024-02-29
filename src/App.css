@@ -72,7 +72,10 @@ li {
 }
 
 .footerStyle {
-  background-color: white;
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  grid-template-rows: 1fr;
+  align-items: end;
 }
 
 img {
@@ -195,7 +198,7 @@ a:link {
 
 /* visited link */
 a:visited {
-  color: rgb(57, 50, 110);
+  color: rgb(0, 0, 0);
   text-decoration: none;
 }
 
@@ -206,7 +209,7 @@ a:hover {
 
 /* selected link */
 a:active {
-  color: rgb(85, 53, 101);
+  color: rgb(0, 0, 0);
   text-decoration: none;
 }
 
@@ -224,5 +227,15 @@ a:active {
   grid-area: 1 / 7 / 2 / 8;
 }
 .grid5 {
+  grid-area: 1 / 11 / 2 / 12;
+}
+
+.gridA {
+  grid-area: 1 / 1 / 2 / 2;
+  width: 60px;
+  height: 60px;
+}
+
+.gridB {
   grid-area: 1 / 11 / 2 / 12;
 }
