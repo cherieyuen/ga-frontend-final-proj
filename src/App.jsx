@@ -13,7 +13,7 @@ const App = () => {
       <div className="margin">
         <div className="homeBanner">
           <h1>Cherie.</h1>
-          <p className="titleSlogan">An Foodie's Manifesto</p>
+          <p className="titleSlogan">My Eating Manifesto</p>
         </div>
 
         <div className="restaurantTile">
