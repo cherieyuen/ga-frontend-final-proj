@@ -12,12 +12,10 @@ const restaurants = [
     hours: [
       {
         day: 'Monday',
-        id: 1,
         time: 'Closed'
       },
       {
         day: 'Tuesday',
-        id: 2,
         time: '6 pm - 11 pm'
       },
       {

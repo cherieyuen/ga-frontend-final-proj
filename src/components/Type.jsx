@@ -1,7 +1,7 @@
 const Type = (props) => {
   return (
     <div className="typeButtons">
-      <button class={props.type.cuisine}> {props.type.cuisine} </button>
+      <button className={props.type.cuisine}> {props.type.cuisine} </button>
     </div>
   )
 }

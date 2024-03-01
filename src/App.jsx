@@ -10,12 +10,11 @@ const App = () => {
       <nav>
         <Navbar />
       </nav>
+      <div className="homeBanner">
+        <h1>Welcome.</h1>
+        <p className="titleSlogan">My Eating Manifesto</p>
+      </div>
       <div className="margin">
-        <div className="homeBanner">
-          <h1>Cherie.</h1>
-          <p className="titleSlogan">My Eating Manifesto</p>
-        </div>
-
         <div className="restaurantTile">
           {restaurants.map((restaurant) => (
             <Restaurant key={restaurant.address} restaurant={restaurant} />
