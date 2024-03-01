@@ -43,12 +43,12 @@ p {
 }
 
 .restaurantName {
-  height: 50px;
+  height: 55px;
 }
 
 .homeBanner {
   margin: 0;
-  padding: 15% 0%;
+  padding: 17% 0%;
   background: url(https://assets-global.website-files.com/624af442a8151d5a2ef5644c/6409c563f20795035f9c0ea6_city-pantry-laptop-bg.webp);
   width: 100%;
 }
@@ -67,7 +67,7 @@ li {
 }
 
 .eachTile {
-  background-color: rgba(255, 255, 255, 0.336);
+  background-color: rgba(255, 255, 255, 0.274);
   height: 100%;
   border-radius: 5%;
   padding: 3% 6%;
@@ -220,6 +220,7 @@ a:active {
   grid-area: 1 / 1 / 2 / 2;
   font-size: 30px;
 }
+
 .grid2 {
   grid-area: 1 / 5 / 2 / 6;
 }
@@ -241,4 +242,9 @@ a:active {
 
 .gridB {
   grid-area: 1 / 11 / 2 / 12;
+}
+
+.grid1Image {
+  width: 60px;
+  height: 60px;
 }

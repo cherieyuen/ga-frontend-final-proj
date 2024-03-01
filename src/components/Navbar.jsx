@@ -1,7 +1,13 @@
 const Navbar = () => {
   return (
     <div className="nav">
-      <li className="grid1">CY</li>
+      <li className="grid1">
+        <img
+          src="https://cdn-icons-png.freepik.com/256/857/857681.png"
+          alt=""
+          className="grid1Image"
+        />
+      </li>
       <li className="grid2">
         <a href="https://www.google.com">Home</a>
       </li>
