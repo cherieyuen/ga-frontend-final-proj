@@ -33,6 +33,13 @@ p {
   font-size: 14px;
 }
 
+.timeSlogan {
+  text-align: center;
+  margin: 40px;
+  padding: 0px;
+  font-size: 17px;
+}
+
 .nav {
   display: grid;
   grid-template-columns: repeat(11, 1fr);
@@ -49,7 +56,7 @@ p {
 
 .homeBanner {
   margin: 0;
-  padding: 16% 0%;
+  padding: 13% 0%;
   background: url(https://assets-global.website-files.com/624af442a8151d5a2ef5644c/6409c563f20795035f9c0ea6_city-pantry-laptop-bg.webp);
   width: 100%;
 }
