@@ -30,6 +30,7 @@ p {
   text-align: center;
   margin: 0px;
   padding: 0px;
+  font-size: 14px;
 }
 
 .nav {
@@ -48,7 +49,7 @@ p {
 
 .homeBanner {
   margin: 0;
-  padding: 17% 0%;
+  padding: 16% 0%;
   background: url(https://assets-global.website-files.com/624af442a8151d5a2ef5644c/6409c563f20795035f9c0ea6_city-pantry-laptop-bg.webp);
   width: 100%;
 }
@@ -104,7 +105,7 @@ button {
   border-radius: 15px;
   padding: 5px 10px;
   border: none;
-  font-size: 12px;
+  font-size: 13px;
 }
 
 .typeButtons {
@@ -247,4 +248,9 @@ a:active {
 .grid1Image {
   width: 60px;
   height: 60px;
+}
+
+.centerText {
+  text-align: center;
+  font-size: 15px;
 }
